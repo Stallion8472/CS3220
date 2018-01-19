@@ -1,0 +1,155 @@
+body{
+    margin: 0;
+    font-family: 'Noto Sans'; font-size: 18px;
+}
+button{
+    font-family: 'Noto Sans'; font-size: 18px;
+}
+
+.row::after{
+    content:"";
+    clear: both;
+    display: table;
+}
+
+[class*="col-"] {
+    float: left;
+    padding: 10px 0;
+}
+[class*="table1"]{
+    float: left;
+}
+[class*="table2"]{
+    float: left;
+}
+[class*="table3"]{
+    float: left;
+}
+[class*="table4"]{
+    float: left;
+}
+.col-1 {width: 25%;}
+.col-2 {width: 75%;}
+
+.table11{width: 33%}
+.table12{width: 33%}
+.table13{width: 33%}
+
+.table21{width: 33%}
+.table22{width: 33%}
+.table23{width: 33%}
+
+.table31{width: 33%}
+.table32{width: 33%}
+.table33{width: 33%}
+
+.table41{width: 33%}
+.table42{width: 33%}
+.table43{width: 33%}
+
+header {
+    background-color: black;
+    display: flex;
+}
+.title{
+    float: left;
+    color: white;
+    background-color: black;
+    width: 60%;
+}
+.settings{
+    float: left;
+    color: white;
+    background-color: black;
+    width: 40%;
+}
+.studentInfo{
+    color: white;
+    background-color: black;
+}
+.studentInfo li{
+    list-style: none;
+}
+
+.dropbtn {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    float: right;
+    padding: 5px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 5px;
+    background-color: white;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: white
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: green;
+}
+
+.menu ul ul{
+    display: none;
+    margin: 0;
+    color: black;
+    list-style: none;
+}
+.menu ul ul li:hover{
+    background-color: white;
+    color: black;
+}
+.menu li:hover ul{
+    display: block;
+}
+.menu ul {
+    margin: 0;
+    padding: 0;
+}
+.menu li {
+    padding: 8px;
+    margin-bottom: 7px;
+    background-color: Green;
+    color: white;
+    border-radius: 10px;
+}
+.menu li:hover {
+    background-color: Black;
+    color: white;
+}
+article{
+    display: flex;
+}
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+}
