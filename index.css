@@ -43,7 +43,7 @@ h1{
     margin-bottom: 7px;
     background-color: Green;
     color: white;
-    border-radius: 10px;
+    border-radius: 5px;
 }
 .menu li:hover {
     background-color: Black;
@@ -60,9 +60,10 @@ footer {
     width: 100%;
     background-color: black;
     color: white;
-    flex-direction: column;
-    align-items: center;
+    justify-content: space-around;
+    text-align: center;
 }
+
 .dropdown-button {
     position: fixed;
     flex-direction: column;
@@ -88,9 +89,8 @@ footer {
 
 .table5 {
     display: flex;
-    flex: 1;
     justify-content: space-between;
-    
+    flex: 1;
 }
 
 .table {
@@ -101,9 +101,12 @@ footer {
     display: flex;
     flex-direction: column;
     flex: 1;
+    border-bottom-color: black;
+    border: 1px;
+    border-style: solid;
 }
 
-.TL {
+.tl {
     display: flex;
 }
 
@@ -133,4 +136,12 @@ input[type=text]{
     margin-right: 16px;
     font-size: 17px;
     height: 17px;
+}
+@media only screen and (max-width: 768px) {
+    .tl{
+        flex-direction: column;
+    }
+}
+li{
+    max-width: 33vw;
 }
