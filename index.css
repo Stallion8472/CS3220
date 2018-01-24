@@ -144,8 +144,4 @@ input[type=text]{
 }
 
 
-span {
-    text-overflow: ellipsis;
-    white-space: nowrap;
-    overflow: hidden;
-}
+
