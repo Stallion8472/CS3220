@@ -12,6 +12,8 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0px 9px 3px rgba(0, 0, 0, 0.16), 0 0px 9px 3px rgba(0, 0, 0, 0.17)
 }
 h1{
     margin: 0;
@@ -95,10 +97,12 @@ footer {
     display: flex;
     flex-direction: column;
     flex: 1;
-    border-bottom-color: black;
-    border: 1px;
+    border: 2px;
     border-style: solid;
     padding: 5px 3px;
+    margin: 3px;
+    min-height: 150px;
+    border-radius: 5px;
 }
 .tl {
     display: flex;
@@ -137,4 +141,11 @@ input[type=text]{
     .tl{
         flex-direction: column;
     }
+}
+
+
+span {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
 }
