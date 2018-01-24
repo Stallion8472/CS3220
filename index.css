@@ -1,10 +1,8 @@
 body{
     margin: 0;
     font-family: 'Noto Sans'; 
-    font-size: 18px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     min-height: 100vh;
 }
 header {
@@ -27,6 +25,9 @@ h1{
     display: flex;
     color: white;
     background-color: black;
+}
+.menu{
+    display: flex;
 }
 .menu ul ul{
     display: none;
@@ -77,7 +78,6 @@ footer {
 }
 .dropdown-box {
     display: block;
-    right: 0;
     background-color: green;
     color: white;
     padding: 5px;
@@ -85,7 +85,7 @@ footer {
 .dropdown-box:hover .dropdown-button{
     display: flex;
 }
-.table5 {
+.courseFinder {
     display: flex;
     justify-content: space-between;
     flex: 1;
@@ -93,7 +93,7 @@ footer {
 .table {
     display: flex;
 }
-.table11 {
+.semester {
     display: flex;
     flex-direction: column;
     flex: 1;
@@ -104,14 +104,14 @@ footer {
     min-height: 150px;
     border-radius: 5px;
 }
-.tl {
+.row {
     display: flex;
 }
-.Classes {
+.classes {
     display: flex;
     flex-direction: column;
     flex: 1;
-    padding-left: 5px;
+    margin-left: 5px;
 }
 input:checked ~ ul{
     display: block;
@@ -138,10 +138,7 @@ input[type=text]{
     height: 17px;
 }
 @media only screen and (max-width: 768px) {
-    .tl{
+    .row{
         flex-direction: column;
     }
 }
-
-
-
